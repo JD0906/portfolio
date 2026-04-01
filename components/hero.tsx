@@ -106,11 +106,10 @@ export default function Hero() {
             </Button>
           </div>
 
-          <div className="mt-10 grid grid-cols-3 gap-3 sm:mt-12 sm:gap-4">
+          <div className="mx-auto mt-10 grid w-full max-w-md grid-cols-2 gap-3 sm:mt-12 sm:max-w-none sm:gap-4">
             {[
               ["Experiencia", "5+ años"],
               ["Enfoque", "Web y móvil"],
-              ["Especialidad", "Soluciones escalables"],
             ].map(([label, value]) => (
               <div
                 key={label}
@@ -119,7 +118,7 @@ export default function Hero() {
                 <p className="text-[10px] uppercase tracking-[0.18em] text-white/45 sm:text-xs sm:tracking-[0.25em]">
                   {label}
                 </p>
-                <p className="mt-2 text-xl font-semibold text-white sm:text-2xl">
+                <p className="mt-2 text-xl font-semibold leading-tight text-white sm:text-2xl">
                   {value}
                 </p>
               </div>
@@ -132,7 +131,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 max-[420px]:hidden"
       >
         <Button
           variant="ghost"

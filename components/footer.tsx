@@ -39,7 +39,7 @@ export default function Footer() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="grid gap-8 rounded-[2rem] border border-border/60 bg-background/70 p-8 backdrop-blur md:grid-cols-[1fr_auto] md:items-center"
+          className="grid gap-8 px-2 py-2 md:grid-cols-[1fr_auto] md:items-center md:px-4 md:py-4"
         >
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">

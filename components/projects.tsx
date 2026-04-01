@@ -135,7 +135,7 @@ export default function Projects() {
       <div className="ambient-orb bottom-6 right-[-6rem] h-64 w-64 bg-primary/20" />
 
       <div className="container mx-auto max-w-6xl">
-        <div className="glass-card rounded-[2.5rem] p-8 md:p-10 lg:p-12">
+        <div className="px-2 md:px-3 lg:px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
