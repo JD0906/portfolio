@@ -1,0 +1,352 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - button "Portfolio Juan Diego" [ref=e5]:
+        - paragraph [ref=e6]: Portfolio
+        - paragraph [ref=e7]: Juan Diego
+      - generic [ref=e8]:
+        - button "Inicio" [ref=e9]
+        - button "Acerca de" [ref=e10]
+        - button "Habilidades" [ref=e11]
+        - button "Proyectos" [ref=e12]
+      - button "CV" [ref=e14]:
+        - img [ref=e15]
+        - text: CV
+      - button [ref=e19]:
+        - img [ref=e20]
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - img "Coding background" [ref=e23]
+      - generic [ref=e25]:
+        - generic [ref=e26]: Desarrollador Full-Stack
+        - heading "Desarrollador Full-Stack" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Juan Diego Durango Rivera
+        - paragraph [ref=e29]: Desarrollador Full-Stack con más de 5 años de experiencia en el diseño e implementación de soluciones tecnológicas robustas, escalables y orientadas a resultados.
+        - generic [ref=e30]:
+          - button "Ver Proyectos" [ref=e31]:
+            - text: Ver Proyectos
+            - img [ref=e32]
+          - button "Descargar CV" [ref=e35]:
+            - img [ref=e36]
+            - text: Descargar CV
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Experiencia
+            - paragraph [ref=e42]: 5+ años
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: Enfoque
+            - paragraph [ref=e45]: Web y móvil
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Especialidad
+            - paragraph [ref=e48]: Soluciones escalables
+      - button [ref=e50]:
+        - img [ref=e51]
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: Acerca de Mí
+        - heading "Experiencia técnica con enfoque en producto, calidad y escalabilidad" [level=2] [ref=e58]
+        - paragraph [ref=e59]: Perfil profesional centrado en construir software confiable, claro y alineado con objetivos reales de negocio.
+      - generic [ref=e60]:
+        - generic [ref=e63]:
+          - img "Juan Diego Durango Rivera" [ref=e64]
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Fortalezas
+              - paragraph [ref=e68]: Pensamiento analítico y enfoque colaborativo
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: Resultado
+              - paragraph [ref=e71]: Soluciones robustas y orientadas a negocio
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: Solucionador de Problemas
+            - generic [ref=e77]: Código Limpio
+            - generic [ref=e78]: Optimización
+            - generic [ref=e79]: Trabajo en Equipo
+          - paragraph [ref=e80]: Desarrollador Full-Stack con más de 5 años de experiencia en el diseño e implementación de soluciones tecnológicas robustas, escalables y orientadas a resultados. Especializado en el desarrollo de software innovador bajo altos estándares de calidad y eficiencia.
+          - paragraph [ref=e81]: Destaco por mi capacidad analítica, adaptabilidad a entornos dinámicos y enfoque colaborativo, contribuyendo al logro de objetivos empresariales mediante una comunicación efectiva y una alta productividad.
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: Valor profesional
+              - paragraph [ref=e85]: Capacidad para convertir requerimientos complejos en entregables claros, mantenibles y útiles.
+            - generic [ref=e86]:
+              - paragraph [ref=e87]: Forma de trabajo
+              - paragraph [ref=e88]: Comunicación efectiva, criterio técnico y foco constante en impacto real para el negocio.
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - paragraph [ref=e92]: My Skills
+        - heading "Technologies & Tools" [level=2] [ref=e93]
+        - paragraph [ref=e94]: Mi conjunto de herramientas técnicas abarca todo el stack de desarrollo, permitiéndome construir soluciones completas.
+      - generic [ref=e96]:
+        - button "Frontend" [ref=e97]
+        - button "Backend" [ref=e98]
+        - button "Base de Datos" [ref=e99]
+        - button "Desarrollo Móvil" [ref=e100]
+        - button "Cloud & DevOps" [ref=e101]
+        - button "Blockchain & Otros" [ref=e102]
+      - generic [ref=e103]:
+        - generic [ref=e105]:
+          - img [ref=e107]
+          - paragraph [ref=e110]: React
+          - paragraph [ref=e111]: Frontend
+        - generic [ref=e113]:
+          - img [ref=e115]
+          - paragraph [ref=e118]: Next.js
+          - paragraph [ref=e119]: Frontend
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - paragraph [ref=e126]: Vite
+          - paragraph [ref=e127]: Frontend
+        - generic [ref=e129]:
+          - img [ref=e131]
+          - paragraph [ref=e134]: TypeScript
+          - paragraph [ref=e135]: Frontend
+        - generic [ref=e137]:
+          - img [ref=e139]
+          - paragraph [ref=e142]: Redux Toolkit
+          - paragraph [ref=e143]: Frontend
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - img [ref=e149]
+            - text: React
+          - generic [ref=e152]:
+            - img [ref=e154]
+            - text: Next.js
+          - generic [ref=e157]:
+            - img [ref=e159]
+            - text: TypeScript
+          - generic [ref=e162]:
+            - img [ref=e164]
+            - text: JavaScript
+          - generic [ref=e167]:
+            - img [ref=e169]
+            - text: Tailwind CSS
+          - generic [ref=e172]:
+            - img [ref=e174]
+            - text: Node.js
+          - generic [ref=e177]:
+            - img [ref=e179]
+            - text: NestJS
+          - generic [ref=e182]:
+            - img [ref=e184]
+            - text: Express
+          - generic [ref=e187]:
+            - img [ref=e189]
+            - text: React Native
+          - generic [ref=e191]:
+            - img [ref=e193]
+            - text: React
+          - generic [ref=e196]:
+            - img [ref=e198]
+            - text: Next.js
+          - generic [ref=e201]:
+            - img [ref=e203]
+            - text: TypeScript
+          - generic [ref=e206]:
+            - img [ref=e208]
+            - text: JavaScript
+          - generic [ref=e211]:
+            - img [ref=e213]
+            - text: Tailwind CSS
+          - generic [ref=e216]:
+            - img [ref=e218]
+            - text: Node.js
+          - generic [ref=e221]:
+            - img [ref=e223]
+            - text: NestJS
+          - generic [ref=e226]:
+            - img [ref=e228]
+            - text: Express
+          - generic [ref=e231]:
+            - img [ref=e233]
+            - text: React Native
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - img [ref=e239]
+            - text: Python
+          - generic [ref=e242]:
+            - img [ref=e244]
+            - text: PostgreSQL
+          - generic [ref=e248]:
+            - img [ref=e250]
+            - text: MongoDB
+          - generic [ref=e254]:
+            - img [ref=e256]
+            - text: Prisma
+          - generic [ref=e260]:
+            - img [ref=e262]
+            - text: Git
+          - generic [ref=e266]:
+            - img [ref=e268]
+            - text: Docker
+          - generic [ref=e272]:
+            - img [ref=e274]
+            - text: AWS
+          - generic [ref=e276]:
+            - img [ref=e278]
+            - text: Vercel
+          - generic [ref=e280]:
+            - img [ref=e282]
+            - text: Serverless
+          - generic [ref=e284]:
+            - img [ref=e286]
+            - text: Python
+          - generic [ref=e289]:
+            - img [ref=e291]
+            - text: PostgreSQL
+          - generic [ref=e295]:
+            - img [ref=e297]
+            - text: MongoDB
+          - generic [ref=e301]:
+            - img [ref=e303]
+            - text: Prisma
+          - generic [ref=e307]:
+            - img [ref=e309]
+            - text: Git
+          - generic [ref=e313]:
+            - img [ref=e315]
+            - text: Docker
+          - generic [ref=e319]:
+            - img [ref=e321]
+            - text: AWS
+          - generic [ref=e323]:
+            - img [ref=e325]
+            - text: Vercel
+          - generic [ref=e327]:
+            - img [ref=e329]
+            - text: Serverless
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - generic [ref=e336]: Proyectos Destacados
+          - heading "Experiencia aplicada en producto, SaaS, móvil y soluciones especializadas" [level=2] [ref=e337]
+        - paragraph [ref=e339]: Una selección de mis proyectos profesionales más relevantes en desarrollo full-stack.
+      - generic [ref=e340]:
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - generic [ref=e344]:
+              - text: "01"
+              - generic [ref=e345]:
+                - generic [ref=e346]: Herramienta
+                - generic [ref=e347]: TypeScript
+            - generic [ref=e348]:
+              - text: Procesador Inteligente de Facturas Electrónicas
+              - img [ref=e349]
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Herramienta para facilitar el trabajo contable de profesionales independientes que deben presentar sus facturas electrónicas ante el Ministerio de Hacienda de Costa Rica.
+            - generic [ref=e354]:
+              - generic [ref=e355]: react
+              - generic [ref=e356]: nestjs
+              - generic [ref=e357]: nextjs
+              - generic [ref=e358]: tailwind
+          - link "Ver en LinkedIn" [ref=e360] [cursor=pointer]:
+            - /url: https://www.linkedin.com/feed/update/urn:li:activity:7353230505871302656/
+            - img [ref=e361]
+            - text: Ver en LinkedIn
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - text: "02"
+              - generic [ref=e369]:
+                - generic [ref=e370]: SaaS
+                - generic [ref=e371]: TypeScript
+            - generic [ref=e372]:
+              - text: Box App
+              - img [ref=e373]
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: Creador y fundador de un SaaS diseñado para transformar la gestión logística de paquetería y mensajería, ofreciendo una solución integral para empresas del sector.
+            - generic [ref=e378]:
+              - generic [ref=e379]: nestjs
+              - generic [ref=e380]: prisma
+              - generic [ref=e381]: postgresql
+              - generic [ref=e382]: react
+              - generic [ref=e383]: vite
+              - generic [ref=e384]: react-native
+              - generic [ref=e385]: jwt
+              - generic [ref=e386]: material-ui
+          - link "Ver Proyecto" [ref=e388] [cursor=pointer]:
+            - /url: https://boxappadmin.com/landing
+            - img [ref=e389]
+            - text: Ver Proyecto
+        - generic [ref=e394]:
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - text: "03"
+              - generic [ref=e397]:
+                - generic [ref=e398]: Blockchain
+                - generic [ref=e399]: Solidity
+            - generic [ref=e400]: Plataforma de Evidencias Digitales Blockchain
+          - generic [ref=e401]:
+            - paragraph [ref=e402]: Solución web para la creación y gestión de evidencias digitales utilizando la red Blockchain LACChain, dirigida a abogados para el respaldo de pruebas judiciales.
+            - generic [ref=e403]:
+              - generic [ref=e404]: solidity
+              - generic [ref=e405]: truffle
+              - generic [ref=e406]: react
+              - generic [ref=e407]: express
+              - generic [ref=e408]: material-ui
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - generic [ref=e412]:
+              - text: "04"
+              - generic [ref=e413]:
+                - generic [ref=e414]: Móvil
+                - generic [ref=e415]: TypeScript
+            - generic [ref=e416]: Carnet Digital CMC
+          - generic [ref=e417]:
+            - paragraph [ref=e418]: Aplicación móvil para el Colegio de Médicos y Cirujanos de Costa Rica con panel web administrativo para gestión de contenido y carnets digitales.
+            - generic [ref=e419]:
+              - generic [ref=e420]: react-native
+              - generic [ref=e421]: react-native-paper
+        - generic [ref=e423]:
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - text: "05"
+              - generic [ref=e426]:
+                - generic [ref=e427]: Móvil
+                - generic [ref=e428]: TypeScript
+            - generic [ref=e429]: Katu - Gestión de Buses
+          - generic [ref=e430]:
+            - paragraph [ref=e431]: Aplicación móvil para gestión de buses con panel web para administración dinámica, optimizando las operaciones de transporte público.
+            - generic [ref=e432]:
+              - generic [ref=e433]: react-native
+              - generic [ref=e434]: react-native-paper
+        - generic [ref=e436]:
+          - generic [ref=e437]:
+            - generic [ref=e438]:
+              - text: "06"
+              - generic [ref=e439]:
+                - generic [ref=e440]: FinTech
+                - generic [ref=e441]: TypeScript
+            - generic [ref=e442]: Sistema de Tokenización de Activos
+          - generic [ref=e443]:
+            - paragraph [ref=e444]: Sistema interno para tokenización de activos (tarjetas de crédito) con integración a pasarelas de pago como Greenpay para procesamiento seguro.
+            - generic [ref=e445]:
+              - generic [ref=e446]: vite
+              - generic [ref=e447]: express
+              - generic [ref=e448]: react
+              - generic [ref=e449]: serverless
+              - generic [ref=e450]: dynamodb
+              - generic [ref=e451]: material-ui
+  - contentinfo [ref=e452]:
+    - generic [ref=e454]:
+      - generic [ref=e455]:
+        - paragraph [ref=e456]: Juan Diego Durango Rivera
+        - heading "Desarrollador Full-Stack" [level=2] [ref=e457]
+        - paragraph [ref=e458]: Desarrollo soluciones tecnológicas robustas, escalables y orientadas a resultados.
+      - generic [ref=e459]:
+        - generic [ref=e460]:
+          - link "Enviar email" [ref=e461] [cursor=pointer]:
+            - /url: mailto:jdurango596@gmail.com
+            - img [ref=e462]
+          - link "Visitar perfil de LinkedIn" [ref=e465] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/juan-diego-durango-rivera-587150189
+            - img [ref=e466]
+          - link "Visitar perfil de GitHub" [ref=e470] [cursor=pointer]:
+            - /url: https://github.com/JD0906
+            - img [ref=e471]
+        - paragraph [ref=e475]: © 2026 Juan Diego Durango Rivera. Todos los derechos reservados.
+        - button "Subir al inicio" [ref=e476]:
+          - img [ref=e477]
+          - text: Subir al inicio
+  - region "Notifications (F8)":
+    - list

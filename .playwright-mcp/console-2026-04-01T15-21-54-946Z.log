@@ -1,0 +1,3 @@
+[    1915ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mdubaid.in/icon.png:0
+[    1916ms] [WARNING] Error while trying to use the following icon from the Manifest: https://mdubaid.in/icon.png (Download error or resource isn't a valid image) @ https://mdubaid.in/:0
+[    4917ms] [WARNING] The resource https://mdubaid.in/_next/static/css/4e2e311734ee37eb.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://mdubaid.in/:0

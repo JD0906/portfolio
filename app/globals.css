@@ -4,61 +4,27 @@
 
 @layer base {
   :root {
-    /* Light mode - usando los HSL específicos */
-    --background: 0 0% 100%; /* white */
-    --foreground: 0 0% 0%; /* black */
-    --card: 0 0% 100%; /* white */
-    --card-foreground: 0 0% 0%; /* black */
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
-    --primary: 210 98% 48%; /* template-palette-primary-main */
-    --primary-foreground: 0 0% 100%; /* white */
-    --secondary: 210 40% 96%; /* light blue-gray */
-    --secondary-foreground: 0 0% 0%;
-    --muted: 210 40% 96%; /* light blue-gray */
-    --muted-foreground: 215 16% 47%; /* medium gray */
-    --accent: 210 100% 65%; /* template-palette-primary-light */
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 214 32% 91%; /* light gray */
-    --input: 214 32% 91%;
-    --ring: 210 98% 48%; /* template-palette-primary-main */
-    --radius: 0.5rem;
-
-    /* Template palette específica */
-    --template-palette-primary-light: 210 100% 65%;
-    --template-palette-primary-main: 210 98% 48%;
-    --template-palette-primary-dark: 210 100% 35%;
-    --template-palette-info-contrastText: 210 100% 65%;
-    --template-palette-info-light: 210 98% 42%;
-    --template-palette-info-main: 210 100% 35%;
-    --template-palette-info-dark: 210 100% 21%;
-  }
-
-  .dark {
-    /* Dark mode - usando los HSL específicos */
-    --background: 0 0% 0%; /* black */
-    --foreground: 0 0% 100%; /* white */
-    --card: 222 47% 11%; /* dark blue-gray */
-    --card-foreground: 0 0% 100%; /* white */
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 222 47% 11%;
+    --card-foreground: 0 0% 100%;
     --popover: 222 47% 11%;
     --popover-foreground: 0 0% 100%;
-    --primary: 210 100% 65%; /* template-palette-primary-light para dark mode */
-    --primary-foreground: 0 0% 0%; /* black */
-    --secondary: 217 33% 17%; /* dark blue-gray */
+    --primary: 210 100% 65%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 217 33% 17%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 217 33% 17%; /* dark blue-gray */
-    --muted-foreground: 215 20% 65%; /* light gray */
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
     --accent: 210 100% 65%; /* template-palette-primary-light */
     --accent-foreground: 0 0% 0%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 217 33% 17%; /* dark gray */
+    --border: 217 33% 17%;
     --input: 217 33% 17%;
-    --ring: 210 100% 65%; /* template-palette-primary-light */
+    --ring: 210 100% 65%;
+    --radius: 0.5rem;
 
-    /* Template palette para dark mode */
     --template-palette-primary-light: 210 100% 65%;
     --template-palette-primary-main: 210 98% 48%;
     --template-palette-primary-dark: 210 100% 35%;
@@ -68,49 +34,54 @@
     --template-palette-info-dark: 210 100% 21%;
   }
 
-  /* Clase para deshabilitar transiciones durante el cambio de tema */
-  .disable-transitions * {
-    transition: none !important;
-  }
 }
 
 @layer base {
   * {
     @apply border-border;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: var(--font-body), sans-serif;
+    background-image:
+      radial-gradient(circle at top left, hsl(var(--template-palette-primary-light) / 0.16), transparent 22%),
+      radial-gradient(circle at top right, hsl(var(--template-palette-info-main) / 0.18), transparent 18%),
+      linear-gradient(180deg, hsl(220 35% 7%) 0%, hsl(var(--background)) 100%);
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), serif;
+    letter-spacing: -0.03em;
+  }
+
+  ::selection {
+    background: hsl(var(--template-palette-primary-main) / 0.24);
   }
 }
 
 @layer components {
   .glass-card {
-    @apply bg-card/90 backdrop-blur-sm border border-border shadow-lg;
-    transition: none;
-  }
-
-  .dark .glass-card {
-    background: rgb(11, 14, 20);
-    border: 1px solid rgba(75, 85, 99, 0.2);
-    box-shadow: none;
-    backdrop-filter: blur(8px);
-    transition: none;
+    @apply border backdrop-blur-xl;
+    background: linear-gradient(180deg, rgba(8, 15, 28, 0.9), rgba(7, 12, 22, 0.72));
+    border: 1px solid rgba(125, 166, 214, 0.18);
+    box-shadow: 0 30px 90px rgba(2, 6, 23, 0.45);
+    transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .glass-nav {
-    @apply backdrop-blur-xl border-b;
-    background: rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: none !important;
-    transition: none;
-  }
-
-  .dark .glass-nav {
-    background: rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: none !important;
-    transition: none;
+    @apply backdrop-blur-2xl border-b;
+    background: rgba(4, 10, 20, 0.72);
+    border-bottom: 1px solid rgba(125, 166, 214, 0.14);
+    box-shadow: 0 18px 60px rgba(2, 6, 23, 0.42) !important;
   }
 
   .contact-card {
@@ -142,12 +113,6 @@
     box-shadow: 0 20px 40px hsl(var(--template-palette-primary-main) / 0.2);
   }
 
-  .dark .project-card:hover {
-    border-color: hsl(var(--template-palette-primary-light) / 0.5);
-    box-shadow: 0 20px 40px hsl(var(--template-palette-primary-light) / 0.2);
-  }
-
-  /* Estilo mejorado para el botón Contact Me */
   .contact-me-button {
     transition: all 0.3s ease;
     transform: translateY(0);
@@ -158,7 +123,34 @@
     box-shadow: 0 8px 25px rgba(33, 150, 243, 0.4);
   }
 
-  .dark .contact-me-button:hover {
-    box-shadow: 0 8px 25px rgba(66, 165, 245, 0.3);
+  .section-shell {
+    @apply relative px-4 md:px-6 lg:px-8;
+  }
+
+  .section-kicker {
+    @apply inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.28em] text-muted-foreground;
+    border-color: hsl(var(--template-palette-primary-main) / 0.22);
+    background: hsl(var(--background) / 0.7);
+  }
+
+  .section-title {
+    @apply mt-4 text-4xl font-semibold leading-none text-foreground md:text-5xl;
+  }
+
+  .section-copy {
+    @apply mt-5 max-w-2xl text-base leading-7 text-muted-foreground md:text-lg;
+  }
+
+  .section-divider {
+    @apply mt-8 h-px w-full max-w-5xl;
+    background: linear-gradient(90deg, transparent, hsl(var(--template-palette-primary-main) / 0.45), transparent);
+  }
+
+  .ambient-orb {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(60px);
+    pointer-events: none;
+    opacity: 0.7;
   }
 }

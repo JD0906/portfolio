@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications alt+T"
+    - main [ref=e3]:
+      - navigation [ref=e4]:
+        - generic [ref=e6]:
+          - link "logo" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "logo" [ref=e8]
+          - generic [ref=e10]:
+            - link "Home" [ref=e11] [cursor=pointer]:
+              - /url: /
+              - button "Home" [ref=e12]: Home
+            - link "About" [ref=e18] [cursor=pointer]:
+              - /url: /about
+              - button "About" [ref=e19]
+            - link "Projects" [ref=e20] [cursor=pointer]:
+              - /url: /projects
+              - button "Projects" [ref=e21]
+            - link "Hire Me" [ref=e22] [cursor=pointer]:
+              - /url: /hire-me
+              - button "Hire Me" [ref=e23]
+            - link "Snippets" [ref=e24] [cursor=pointer]:
+              - /url: /snippets
+              - button "Snippets" [ref=e25]
+          - button [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+      - generic [ref=e30]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Turning business ideas into scalable digital products" [level=2] [ref=e37]:
+              - text: Turning business ideas
+              - text: into scalable digital products
+            - heading "Hey there! I'm Mohd Ubaid Khan 👋 a Software Engineer" [level=1] [ref=e38]
+            - paragraph [ref=e39]:
+              - text: Engineering high-performance, accessible, and scalable products
+              - text: for web and mobile.
+          - generic [ref=e40]:
+            - generic [ref=e42]: TypeScript
+            - generic [ref=e44]: React
+            - generic [ref=e46]: Next.js
+            - generic [ref=e48]: Node.js
+            - generic [ref=e50]: Python
+            - generic [ref=e52]: Ai
+            - generic [ref=e54]: GraphQL
+            - generic [ref=e56]: PostgreSQL
+            - generic [ref=e58]: AWS
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - img [ref=e61]
+              - paragraph [ref=e63]: Performance-first
+            - generic [ref=e64]:
+              - img [ref=e65]
+              - paragraph [ref=e68]: Accessible by design
+            - generic [ref=e69]:
+              - img [ref=e70]
+              - paragraph [ref=e74]: Scalable systems
+          - generic [ref=e75]:
+            - link "About Me" [ref=e76] [cursor=pointer]:
+              - /url: /about
+            - link "Get In Touch" [ref=e77] [cursor=pointer]:
+              - /url: /contact
+              - text: Get In Touch
+              - img [ref=e79]
+        - generic [ref=e81]:
+          - generic [ref=e83]:
+            - heading "FEATURED CASE STUDIES" [level=6] [ref=e84]
+            - heading "Curated work" [level=3] [ref=e85]:
+              - text: Curated
+              - emphasis [ref=e86]: work
+          - generic [ref=e89]:
+            - img "Cloud Drive project screenshot" [ref=e91]
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - heading "Cloud Drive" [level=4] [ref=e98]
+                - generic [ref=e99]: Featured
+              - paragraph [ref=e100]: A comprehensive cloud storage platform designed for modern teams, featuring real-time synchronization, granular sharing controls, and blazing-fast upload capabilities with enterprise-grade security and intuitive file management.
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - img [ref=e104]
+                  - paragraph [ref=e106]: Advanced search functionality with intelligent filters and instant file retrieval across all stored content
+                - generic [ref=e107]:
+                  - img [ref=e109]
+                  - paragraph [ref=e111]: Collaborative folder system with granular role-based permissions and real-time access control management
+                - generic [ref=e112]:
+                  - img [ref=e114]
+                  - paragraph [ref=e116]: Optimized upload system with resumable chunks, progress tracking, and bandwidth optimization features
+                - generic [ref=e117]:
+                  - img [ref=e119]
+                  - paragraph [ref=e121]: Real-time synchronization engine that keeps files updated across all devices and platforms seamlessly
+                - generic [ref=e122]:
+                  - img [ref=e124]
+                  - paragraph [ref=e126]: Enterprise-grade security implementation with end-to-end encryption and comprehensive audit logging
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - img "image" [ref=e129]
+                  - paragraph [ref=e130]: NextJS
+                - generic [ref=e131]:
+                  - img "image" [ref=e132]
+                  - paragraph [ref=e133]: TypeScript
+                - generic [ref=e134]:
+                  - img "image" [ref=e135]
+                  - paragraph [ref=e136]: MongoDB
+                - generic [ref=e137]:
+                  - img "image" [ref=e138]
+                  - paragraph [ref=e139]: AWS S3
+                - generic [ref=e140]:
+                  - img "image" [ref=e141]
+                  - paragraph [ref=e142]: AWS CloudFront
+          - generic [ref=e145]:
+            - img "Messenger project screenshot" [ref=e147]
+            - generic [ref=e152]:
+              - heading "Messenger" [level=4] [ref=e154]
+              - paragraph [ref=e155]: A modern real-time messaging application built for speed and reliability, featuring typing indicators, read receipts, media sharing, and seamless group conversations with push notifications.
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - img [ref=e159]
+                  - paragraph [ref=e161]: Real-time messaging system with typing indicators, read receipts, and message status tracking
+                - generic [ref=e162]:
+                  - img [ref=e164]
+                  - paragraph [ref=e166]: Advanced group chat functionality with threaded conversations, media sharing, and file attachments
+                - generic [ref=e167]:
+                  - img [ref=e169]
+                  - paragraph [ref=e171]: Comprehensive push notification system for instant message delivery and user engagement
+                - generic [ref=e172]:
+                  - img [ref=e174]
+                  - paragraph [ref=e176]: WebSocket-based architecture designed for lightning-fast communication and minimal latency
+                - generic [ref=e177]:
+                  - img [ref=e179]
+                  - paragraph [ref=e181]: Modern user interface with dark mode support, responsive design, and accessibility features
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - img "image" [ref=e184]
+                  - paragraph [ref=e185]: NextJS
+                - generic [ref=e186]:
+                  - img "image" [ref=e187]
+                  - paragraph [ref=e188]: TypeScript
+                - generic [ref=e189]:
+                  - img "image" [ref=e190]
+                  - paragraph [ref=e191]: Socket.io
+                - generic [ref=e192]:
+                  - img "image" [ref=e193]
+                  - paragraph [ref=e194]: Express
+                - generic [ref=e195]:
+                  - img "image" [ref=e196]
+                  - paragraph [ref=e197]: Redis
+          - generic [ref=e200]:
+            - img "ATS Suite project screenshot" [ref=e202]
+            - generic [ref=e207]:
+              - heading "ATS Suite" [level=4] [ref=e209]
+              - paragraph [ref=e210]: A comprehensive applicant tracking system that seamlessly integrates Careers, HR, and Employee portals to streamline the entire hiring process from job posting to employee onboarding.
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - img [ref=e214]
+                  - paragraph [ref=e216]: Automated email workflow system with customizable templates and offer letter generation capabilities
+                - generic [ref=e217]:
+                  - img [ref=e219]
+                  - paragraph [ref=e221]: Role-based dashboard system providing tailored interfaces for recruiters, HR managers, and candidates
+                - generic [ref=e222]:
+                  - img [ref=e224]
+                  - paragraph [ref=e226]: Integrated payment processing system for premium job postings with secure transaction handling
+                - generic [ref=e227]:
+                  - img [ref=e229]
+                  - paragraph [ref=e231]: Comprehensive reporting and analytics suite with detailed hiring insights and performance metrics
+                - generic [ref=e232]:
+                  - img [ref=e234]
+                  - paragraph [ref=e236]: Pipeline Kanban view with drag-and-drop functionality for visual candidate tracking and workflow management
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - img "image" [ref=e239]
+                  - paragraph [ref=e240]: NextJS
+                - generic [ref=e241]:
+                  - img "image" [ref=e242]
+                  - paragraph [ref=e243]: Express
+                - generic [ref=e244]:
+                  - img "image" [ref=e245]
+                  - paragraph [ref=e246]: Supabase
+                - generic [ref=e247]:
+                  - img "image" [ref=e248]
+                  - paragraph [ref=e249]: Stripe
+                - generic [ref=e250]:
+                  - img "image" [ref=e251]
+                  - paragraph [ref=e252]: AWS SES
+        - generic [ref=e253]:
+          - generic [ref=e255]:
+            - heading "Core Strengths" [level=6] [ref=e256]
+            - heading "Competencies skills" [level=3] [ref=e257]:
+              - text: Competencies
+              - emphasis [ref=e258]: skills
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - img "image" [ref=e262]
+              - paragraph [ref=e263]: ReactJS
+            - generic [ref=e264]:
+              - img "image" [ref=e265]
+              - paragraph [ref=e266]: NextJS
+            - generic [ref=e267]:
+              - img "image" [ref=e268]
+              - paragraph [ref=e269]: Material UI
+            - generic [ref=e270]:
+              - img "image" [ref=e271]
+              - paragraph [ref=e272]: Motion
+            - generic [ref=e273]:
+              - img "image" [ref=e274]
+              - paragraph [ref=e275]: NodeJS
+            - generic [ref=e276]:
+              - img "image" [ref=e277]
+              - paragraph [ref=e278]: Tailwind CSS
+            - generic [ref=e279]:
+              - img "image" [ref=e280]
+              - paragraph [ref=e281]: TypeScript
+            - generic [ref=e282]:
+              - img "image" [ref=e283]
+              - paragraph [ref=e284]: Python
+            - generic [ref=e285]:
+              - img "image" [ref=e286]
+              - paragraph [ref=e287]: ExpressJS
+            - generic [ref=e288]:
+              - img "image" [ref=e289]
+              - paragraph [ref=e290]: JQuery
+            - generic [ref=e291]:
+              - img "image" [ref=e292]
+              - paragraph [ref=e293]: MongoDB
+            - generic [ref=e294]:
+              - img "image" [ref=e295]
+              - paragraph [ref=e296]: PostgreSQL
+            - generic [ref=e297]:
+              - img "image" [ref=e298]
+              - paragraph [ref=e299]: AWS
+            - generic [ref=e300]:
+              - img "image" [ref=e301]
+              - paragraph [ref=e302]: Git
+            - generic [ref=e303]:
+              - img "image" [ref=e304]
+              - paragraph [ref=e305]: GitHub
+            - generic [ref=e306]:
+              - img "image" [ref=e307]
+              - paragraph [ref=e308]: Linux
+            - generic [ref=e309]:
+              - img "image" [ref=e310]
+              - paragraph [ref=e311]: JIRA
+            - generic [ref=e312]:
+              - img "image" [ref=e313]
+              - paragraph [ref=e314]: Docker
+            - generic [ref=e315]:
+              - img "image" [ref=e316]
+              - paragraph [ref=e317]: Postman
+            - generic [ref=e318]:
+              - img "image" [ref=e319]
+              - paragraph [ref=e320]: React Redux
+            - generic [ref=e321]:
+              - img "image" [ref=e322]
+              - paragraph [ref=e323]: Netlify
+            - generic [ref=e324]:
+              - img "image" [ref=e325]
+              - paragraph [ref=e326]: Vercel
+            - generic [ref=e327]:
+              - img "image" [ref=e328]
+              - paragraph [ref=e329]: Sass
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - heading "About Me" [level=6] [ref=e334]
+            - heading "Software Engineer with a little bit of everything" [level=3] [ref=e335]:
+              - text: Software Engineer with a little bit of
+              - emphasis [ref=e336]: everything
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - text: I'm
+                  - heading "Mohd Ubaid Khan" [level=1] [ref=e340]
+                - text: — a driven Software Engineer with a passion for building engaging and efficient web applications. Whether it's crafting responsive frontend or architecting robust backends, my toolkit is rooted in the JavaScript ecosystem and Python. I have strong experience in React, Next.js, and Node.js. I'm always curious to learn more.
+              - heading "When I'm not deep in code, I love to explore new ideas and fulfill my curiosity. I believe in balance and enjoy embracing every aspect of life." [level=6] [ref=e341]
+              - heading "I believe each day is a fresh opportunity to grow, create, and make a difference! Every project is a chance to engineer something meaningful that enhances how people interact with technology." [level=6] [ref=e342]
+              - generic [ref=e343]:
+                - link "Github" [ref=e344] [cursor=pointer]:
+                  - /url: https://github.com/imdubaid
+                  - button [ref=e345]:
+                    - img [ref=e346]
+                - link "LinkedIn" [ref=e348] [cursor=pointer]:
+                  - /url: https://linkedin.com/in/imdubaid
+                  - button [ref=e349]:
+                    - img [ref=e350]
+                - link "Twitter" [ref=e354] [cursor=pointer]:
+                  - /url: https://x.com/imdubaid
+                  - button [ref=e355]:
+                    - img [ref=e356]
+              - link "Work Experience" [ref=e358] [cursor=pointer]:
+                - /url: /about#experience
+                - paragraph [ref=e359]: Work Experience
+                - generic [ref=e360]:
+                  - img [ref=e362]
+                  - img [ref=e365]
+          - img "Mohd Ubaid Khan - Software Engineer" [ref=e368] [cursor=pointer]
+        - generic [ref=e371]:
+          - heading "I'm available for full-time roles & freelance projects." [level=4] [ref=e372]
+          - paragraph [ref=e373]: If you have an opportunity or a project in mind, feel free to reach out. I'm always open to discussing new ideas, collaborations, or potential opportunities to contribute my skills and expertise.
+          - link "Get In Touch" [ref=e375] [cursor=pointer]:
+            - /url: /contact
+            - text: Get In Touch
+            - img [ref=e377]
+      - generic [ref=e380]:
+        - generic [ref=e381]:
+          - generic [ref=e382]:
+            - link "logo" [ref=e383] [cursor=pointer]:
+              - /url: /
+              - img "logo" [ref=e384]
+            - paragraph [ref=e385]: It was great having you here, my inbox is always open whether you have a question, a project in mind, or just want to say hi, I'll get back to you!
+            - link "Available for work" [ref=e386] [cursor=pointer]:
+              - /url: /contact
+              - paragraph [ref=e388]: Available for work
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - paragraph [ref=e392]: General
+              - list [ref=e393]:
+                - listitem [ref=e394]:
+                  - link "Home" [ref=e395] [cursor=pointer]:
+                    - /url: /
+                    - paragraph [ref=e396]: Home
+                - listitem [ref=e397]:
+                  - link "About" [ref=e398] [cursor=pointer]:
+                    - /url: /about
+                    - paragraph [ref=e399]: About
+                - listitem [ref=e400]:
+                  - link "Projects" [ref=e401] [cursor=pointer]:
+                    - /url: /projects
+                    - paragraph [ref=e402]: Projects
+                - listitem [ref=e403]:
+                  - link "Snippets" [ref=e404] [cursor=pointer]:
+                    - /url: /snippets
+                    - paragraph [ref=e405]: Snippets
+            - generic [ref=e406]:
+              - paragraph [ref=e407]: Specifics
+              - list [ref=e408]:
+                - listitem [ref=e409]:
+                  - link "Hire Me" [ref=e410] [cursor=pointer]:
+                    - /url: /hire-me
+                    - paragraph [ref=e411]: Hire Me
+                - listitem [ref=e412]:
+                  - link "Privacy Policy" [ref=e413] [cursor=pointer]:
+                    - /url: /privacy-policy
+                    - paragraph [ref=e414]: Privacy Policy
+                - listitem [ref=e415]:
+                  - link "Blog":
+                    - /url: ""
+                    - paragraph: Blog
+                - listitem [ref=e416]:
+                  - link "Uses":
+                    - /url: ""
+                    - paragraph: Uses
+            - generic [ref=e417]:
+              - paragraph [ref=e418]: More
+              - list [ref=e419]:
+                - listitem [ref=e420]:
+                  - link "Contact" [ref=e421] [cursor=pointer]:
+                    - /url: /contact
+                    - paragraph [ref=e422]: Contact
+                - listitem [ref=e423]:
+                  - link "Links":
+                    - /url: ""
+                    - paragraph: Links
+        - generic [ref=e424]:
+          - heading "© 2026 Mohd Ubaid Khan. All rights reserved." [level=1] [ref=e425]:
+            - text: © 2026
+            - link "Mohd Ubaid Khan" [ref=e426] [cursor=pointer]:
+              - /url: https://github.com/imdubaid
+            - text: . All rights reserved.
+          - generic [ref=e427]:
+            - link "Github" [ref=e428] [cursor=pointer]:
+              - /url: https://github.com/imdubaid
+              - button [ref=e429]:
+                - img [ref=e430]
+            - link "LinkedIn" [ref=e432] [cursor=pointer]:
+              - /url: https://linkedin.com/in/imdubaid
+              - button [ref=e433]:
+                - img [ref=e434]
+            - link "Twitter" [ref=e438] [cursor=pointer]:
+              - /url: https://x.com/imdubaid
+              - button [ref=e439]:
+                - img [ref=e440]
+  - alert [ref=e442]

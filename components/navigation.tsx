@@ -1,157 +1,145 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Menu, X, Download } from "lucide-react";
+import { Download, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ThemeToggle from "./theme-toggle";
+
+const menuItems = [
+  { name: "Inicio", href: "#home" },
+  { name: "Acerca de", href: "#about" },
+  { name: "Habilidades", href: "#skills" },
+  { name: "Proyectos", href: "#projects" },
+];
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
-  const menuItems = [
-    { name: "Inicio", href: "#home" },
-    { name: "Acerca de", href: "#about" },
-    { name: "Habilidades", href: "#skills" },
-    { name: "Proyectos", href: "#projects" },
-  ];
-
   useEffect(() => {
     const handleScroll = () => {
-      // Detectar si hemos hecho scroll para cambiar la opacidad del nav
-      if (window.scrollY > 20) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 28);
 
-      // Detectar sección activa
-      const sections = ["home", "about", "skills", "projects"];
-      const scrollPosition = window.scrollY + 100;
+      const sections = menuItems
+        .map((item) => item.href.replace("#", ""))
+        .map((id) => document.getElementById(id))
+        .filter(Boolean) as HTMLElement[];
 
-      for (const section of sections) {
-        const element = document.getElementById(
-          section === "home" ? "" : section
-        );
-        if (element) {
-          const offsetTop = element.offsetTop;
-          const offsetHeight = element.offsetHeight;
-
-          if (
-            scrollPosition >= offsetTop &&
-            scrollPosition < offsetTop + offsetHeight
-          ) {
-            setActiveSection(section === "home" ? "home" : section);
-            break;
-          }
-        }
-      }
+      const current = sections.findLast(
+        (section) => window.scrollY + 140 >= section.offsetTop,
+      );
+      setActiveSection(current?.id ?? "home");
     };
 
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToSection = (href: string) => {
     const targetId = href.replace("#", "");
-    const element =
-      targetId === "home" ? document.body : document.getElementById(targetId);
+    const element = document.getElementById(targetId);
 
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const top = element.getBoundingClientRect().top + window.scrollY - 88;
+      window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
     }
+
     setIsOpen(false);
   };
 
   const downloadResume = () => {
-    // Crear un enlace temporal para descargar
     const link = document.createElement("a");
     link.href = "/cv.pdf";
     link.download = "CV-Juan-Diego-Durango-Rivera.pdf";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
 
-    // Agregar al DOM, hacer clic y remover
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
 
-    // Fallback: abrir en nueva pestaña si la descarga falla
     setTimeout(() => {
       window.open("/cv.pdf", "_blank");
     }, 100);
   };
 
+  const mobileButtonTone = scrolled
+    ? "text-foreground hover:bg-muted"
+    : "text-white hover:bg-white/10";
+
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "glass-nav" : "bg-transparent border-transparent"
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
+        scrolled ? "px-3 pt-3" : "px-0 pt-0"
       }`}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <motion.div
+      <div
+        className={`mx-auto max-w-6xl transition-all duration-500 ${
+          scrolled
+            ? "glass-nav rounded-full px-4"
+            : "border-b border-white/10 bg-transparent px-4"
+        }`}
+      >
+        <div className="flex h-20 items-center justify-between gap-4">
+          <motion.button
+            type="button"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className={`text-xl font-bold cursor-pointer transition-colors ${
-              !scrolled ? "text-white" : "text-blue-600 dark:text-blue-400"
+            className={`cursor-pointer text-left transition-colors ${
+              scrolled ? "text-foreground" : "text-white"
             }`}
             onClick={() => scrollToSection("#home")}
           >
-            Portafolio
-          </motion.div>
+            <p className="font-body text-xs uppercase tracking-[0.3em] text-primary/80">
+              Portfolio
+            </p>
+            <p className="text-2xl font-semibold leading-none">Juan Diego</p>
+          </motion.button>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-2 py-2 backdrop-blur md:flex dark:border-white/5 dark:bg-white/[0.03]">
             {menuItems.map((item) => (
               <button
                 key={item.name}
+                type="button"
                 onClick={() => scrollToSection(item.href)}
-                className={`text-sm font-medium transition-colors ${
-                  activeSection ===
-                  (item.href === "#home" ? "home" : item.href.replace("#", ""))
-                    ? !scrolled
-                      ? "text-blue-300"
-                      : "text-blue-600 dark:text-blue-400"
-                    : !scrolled
-                    ? "text-white/90 hover:text-blue-300"
-                    : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                className={`rounded-full px-4 py-2 text-sm font-semibold transition-all duration-300 ${
+                  activeSection === item.href.replace("#", "")
+                    ? "bg-primary text-primary-foreground shadow-lg shadow-primary/20"
+                    : scrolled
+                      ? "text-muted-foreground hover:text-foreground"
+                      : "text-white/75 hover:text-white"
                 }`}
               >
                 {item.name}
               </button>
             ))}
+          </div>
+
+          <div className="hidden items-center gap-3 md:flex">
             <Button
+              type="button"
               variant="outline"
               size="sm"
               onClick={downloadResume}
-              className={`border-2 font-semibold transition-all ${
-                !scrolled
-                  ? "border-white/50 text-white hover:bg-white hover:text-blue-600 bg-transparent"
-                  : "border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-black bg-transparent"
+              className={`rounded-full border px-5 font-semibold transition-all duration-300 ${
+                scrolled
+                  ? "border-primary/30 bg-background/70 text-foreground hover:border-primary hover:bg-primary hover:text-primary-foreground"
+                  : "border-white/20 bg-white/5 text-white hover:bg-white hover:text-slate-950"
               }`}
             >
               <Download className="mr-2 h-4 w-4" />
               CV
             </Button>
-            <ThemeToggle />
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
+          <div className="flex items-center gap-2 md:hidden">
             <Button
               variant="ghost"
               size="icon"
               onClick={() => setIsOpen(!isOpen)}
-              className={`${
-                !scrolled
-                  ? "text-white hover:bg-white/10"
-                  : "text-black dark:text-white hover:bg-black/10 dark:hover:bg-white/10"
-              }`}
+              className={mobileButtonTone}
             >
               {isOpen ? (
                 <X className="h-5 w-5" />
@@ -162,37 +150,35 @@ export default function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden py-4 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-t border-gray-200/50 dark:border-gray-700/50 mt-1 rounded-b-lg"
+            className="glass-card mb-3 rounded-[2rem] p-4 md:hidden"
           >
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-2">
               {menuItems.map((item) => (
                 <button
                   key={item.name}
+                  type="button"
                   onClick={() => scrollToSection(item.href)}
-                  className={`text-left px-4 py-2 text-sm font-medium transition-colors ${
-                    activeSection ===
-                    (item.href === "#home"
-                      ? "home"
-                      : item.href.replace("#", ""))
-                      ? "text-blue-600 dark:text-blue-400"
-                      : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                  className={`rounded-2xl px-4 py-3 text-left text-sm font-semibold transition-colors ${
+                    activeSection === item.href.replace("#", "")
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}
                 >
                   {item.name}
                 </button>
               ))}
-              <div className="px-4">
+              <div className="pt-2">
                 <Button
+                  type="button"
                   variant="outline"
                   size="sm"
                   onClick={downloadResume}
-                  className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-black bg-transparent font-semibold"
+                  className="w-full rounded-2xl border-primary/30 bg-background/70 font-semibold text-foreground hover:bg-primary hover:text-primary-foreground"
                 >
                   <Download className="mr-2 h-4 w-4" />
                   CV

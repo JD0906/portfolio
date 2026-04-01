@@ -1,0 +1,552 @@
+- generic [ref=e6]:
+  - navigation [ref=e7]:
+    - generic [ref=e9]:
+      - link "Vansh Mehta Vansh" [ref=e10]:
+        - /url: "#"
+        - img "Vansh Mehta" [ref=e11]
+        - generic [ref=e12]: Vansh
+      - generic [ref=e13]:
+        - link "About" [ref=e14]:
+          - /url: "#about"
+        - link "Technologies" [ref=e15]:
+          - /url: "#technologies"
+        - link "Experience" [ref=e16]:
+          - /url: "#experience"
+        - link "Projects" [ref=e17]:
+          - /url: "#projects"
+        - link "Contact" [ref=e18]:
+          - /url: "#contact"
+      - generic [ref=e19]:
+        - link "LinkedIn" [ref=e21]:
+          - /url: https://www.linkedin.com/in/vansh-mehta-8867b8275/
+          - img [ref=e22]
+        - link "GitHub" [ref=e25]:
+          - /url: https://github.com/mvanshbu0681
+          - img [ref=e26]
+        - link "Twitter" [ref=e29]:
+          - /url: https://x.com/VanshMehta22914
+          - img [ref=e30]
+        - link "Instagram" [ref=e33]:
+          - /url: https://www.instagram.com/mvansh_2005/
+          - img [ref=e34]
+  - main [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e47]: Open to Internships & Freelance
+          - heading "Vansh Mehta" [level=1] [ref=e48]
+          - paragraph [ref=e49]: 3rd-year CS @ Bennett University
+          - generic [ref=e51]: React/N|
+          - paragraph [ref=e52]: I design and ship clean, fast, user-centric web apps. On the frontend I work in React/Next.js; on the backend I build reliable services with Node.js and Python. As a freelancer, I deliver production features on tight timelines, collaborate closely with clients, and iterate quickly from brief → prototype → launch.
+          - generic [ref=e53]:
+            - link "Get In Touch" [ref=e54]:
+              - /url: "#contact"
+            - link "Download CV" [ref=e55]:
+              - /url: https://drive.google.com/file/d/12thrXEG4dBYcqafLkp-6OWqUdDiTPuFK/view?usp=sharing
+          - generic [ref=e56]:
+            - link [ref=e57]:
+              - /url: https://github.com/mvanshbu0681
+              - img [ref=e58]
+            - link [ref=e60]:
+              - /url: https://www.linkedin.com/in/vansh-mehta-8867b8275/
+              - img [ref=e61]
+            - link [ref=e63]:
+              - /url: https://twitter.com/vansh_mehta
+              - img [ref=e64]
+        - generic [ref=e67]:
+          - generic [ref=e70]:
+            - img "Vansh Mehta" [ref=e71]
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Speaker & Mentor
+              - paragraph [ref=e76]: 500+ Students Mentored
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: 2+
+            - paragraph [ref=e79]: Years Exp.
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: 10+
+            - paragraph [ref=e82]: Projects
+          - paragraph [ref=e84]: React • Node • Full Stack
+      - link "Scroll" [ref=e85]:
+        - /url: "#about"
+        - generic [ref=e86]: Scroll
+        - img [ref=e88]
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: About
+        - heading "A bit about me" [level=2] [ref=e94]
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - img "Vansh Mehta speaking" [ref=e99]
+          - generic [ref=e101]:
+            - generic [ref=e102]: Speaking at tech events
+            - generic [ref=e103]: 500+ students mentored
+        - generic [ref=e104]:
+          - paragraph [ref=e106]: I'm a 3rd-year Computer Science student at Bennett University, passionate about building efficient and user-friendly web applications. I work with React, Next.js, Node.js, and PostgreSQL to create full-stack solutions. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.
+          - generic [ref=e107]:
+            - heading "Highlights" [level=3] [ref=e108]
+            - generic [ref=e109]: Built and deployed multiple real-world apps with an emphasis on performance and accessibility
+            - generic [ref=e111]: "Delivered end-to-end freelance work: scoping, UI/UX, development, testing, and hand-off"
+            - generic [ref=e113]: Active collaborator in team projects, balancing speed with code quality and clarity
+          - generic [ref=e115]:
+            - heading "Core Skills" [level=3] [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e118]: React / Next.js
+              - generic [ref=e120]: Node.js / Express
+              - generic [ref=e122]: JavaScript / TypeScript
+              - generic [ref=e124]: Python / ML
+              - generic [ref=e126]: HTML / CSS
+              - generic [ref=e128]: PostgreSQL / Prisma
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: 2+
+              - text: Years of experience
+            - generic [ref=e134]:
+              - generic [ref=e135]: 10+
+              - text: Projects completed
+            - generic [ref=e136]:
+              - generic [ref=e137]: 500+
+              - text: Students mentored
+          - link "Get in touch" [ref=e138]:
+            - /url: "#contact"
+            - text: Get in touch
+            - img [ref=e139]
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - text: MY SKILLS
+        - heading "Technologies & Tools" [level=2] [ref=e143]
+        - paragraph [ref=e145]: I work with modern technologies and tools to build scalable, performant applications
+      - generic [ref=e146]:
+        - button "Frontend" [ref=e147]
+        - button "Backend" [ref=e148]
+        - button "Database" [ref=e149]
+        - button "Tools" [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - generic [ref=e158]: React
+          - generic [ref=e159]:
+            - generic [ref=e160]: 90%
+            - generic [ref=e161]: Proficiency
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - img [ref=e168]
+            - generic [ref=e170]: Next.js
+          - generic [ref=e171]:
+            - generic [ref=e172]: 85%
+            - generic [ref=e173]: Proficiency
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - img [ref=e180]
+            - generic [ref=e183]: TypeScript
+          - generic [ref=e184]:
+            - generic [ref=e185]: 80%
+            - generic [ref=e186]: Proficiency
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - img [ref=e193]
+            - generic [ref=e195]: JavaScript
+          - generic [ref=e196]:
+            - generic [ref=e197]: 95%
+            - generic [ref=e198]: Proficiency
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - img [ref=e205]
+            - generic [ref=e207]: Tailwind CSS
+          - generic [ref=e208]:
+            - generic [ref=e209]: 90%
+            - generic [ref=e210]: Proficiency
+      - generic [ref=e213]:
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - img [ref=e217]
+            - generic [ref=e219]: React
+          - generic [ref=e220]:
+            - img [ref=e221]
+            - generic [ref=e223]: Next.js
+          - generic [ref=e224]:
+            - img [ref=e225]
+            - generic [ref=e228]: TypeScript
+          - generic [ref=e229]:
+            - img [ref=e230]
+            - generic [ref=e232]: JavaScript
+          - generic [ref=e233]:
+            - img [ref=e234]
+            - generic [ref=e236]: Tailwind CSS
+          - generic [ref=e237]:
+            - img [ref=e238]
+            - generic [ref=e240]: Node.js
+          - generic [ref=e241]:
+            - img [ref=e242]
+            - generic [ref=e244]: React
+          - generic [ref=e245]:
+            - img [ref=e246]
+            - generic [ref=e248]: Next.js
+          - generic [ref=e249]:
+            - img [ref=e250]
+            - generic [ref=e253]: TypeScript
+          - generic [ref=e254]:
+            - img [ref=e255]
+            - generic [ref=e257]: JavaScript
+          - generic [ref=e258]:
+            - img [ref=e259]
+            - generic [ref=e261]: Tailwind CSS
+          - generic [ref=e262]:
+            - img [ref=e263]
+            - generic [ref=e265]: Node.js
+          - generic [ref=e266]:
+            - img [ref=e267]
+            - generic [ref=e269]: React
+          - generic [ref=e270]:
+            - img [ref=e271]
+            - generic [ref=e273]: Next.js
+          - generic [ref=e274]:
+            - img [ref=e275]
+            - generic [ref=e278]: TypeScript
+          - generic [ref=e279]:
+            - img [ref=e280]
+            - generic [ref=e282]: JavaScript
+          - generic [ref=e283]:
+            - img [ref=e284]
+            - generic [ref=e286]: Tailwind CSS
+          - generic [ref=e287]:
+            - img [ref=e288]
+            - generic [ref=e290]: Node.js
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - img [ref=e294]
+            - generic [ref=e296]: Express
+          - generic [ref=e297]:
+            - img [ref=e298]
+            - generic [ref=e300]: Python
+          - generic [ref=e301]:
+            - img [ref=e302]
+            - generic [ref=e309]: PostgreSQL
+          - generic [ref=e310]:
+            - img [ref=e311]
+            - generic [ref=e313]: MongoDB
+          - generic [ref=e314]:
+            - img [ref=e315]
+            - generic [ref=e317]: Prisma
+          - generic [ref=e318]:
+            - img [ref=e319]
+            - generic [ref=e321]: Git
+          - generic [ref=e322]:
+            - img [ref=e323]
+            - generic [ref=e325]: Docker
+          - generic [ref=e326]:
+            - img [ref=e327]
+            - generic [ref=e329]: Express
+          - generic [ref=e330]:
+            - img [ref=e331]
+            - generic [ref=e333]: Python
+          - generic [ref=e334]:
+            - img [ref=e335]
+            - generic [ref=e342]: PostgreSQL
+          - generic [ref=e343]:
+            - img [ref=e344]
+            - generic [ref=e346]: MongoDB
+          - generic [ref=e347]:
+            - img [ref=e348]
+            - generic [ref=e350]: Prisma
+          - generic [ref=e351]:
+            - img [ref=e352]
+            - generic [ref=e354]: Git
+          - generic [ref=e355]:
+            - img [ref=e356]
+            - generic [ref=e358]: Docker
+          - generic [ref=e359]:
+            - img [ref=e360]
+            - generic [ref=e362]: Express
+          - generic [ref=e363]:
+            - img [ref=e364]
+            - generic [ref=e366]: Python
+          - generic [ref=e367]:
+            - img [ref=e368]
+            - generic [ref=e375]: PostgreSQL
+          - generic [ref=e376]:
+            - img [ref=e377]
+            - generic [ref=e379]: MongoDB
+          - generic [ref=e380]:
+            - img [ref=e381]
+            - generic [ref=e383]: Prisma
+          - generic [ref=e384]:
+            - img [ref=e385]
+            - generic [ref=e387]: Git
+          - generic [ref=e388]:
+            - img [ref=e389]
+            - generic [ref=e391]: Docker
+    - generic [ref=e392]:
+      - generic [ref=e393]:
+        - text: MY JOURNEY
+        - heading "Work Experience" [level=2] [ref=e394]
+      - generic [ref=e396]:
+        - generic [ref=e402]:
+          - generic [ref=e403]: 2025-Present
+          - heading "Front End Developer" [level=3] [ref=e404]
+          - paragraph [ref=e405]: "@ Athaarva"
+          - paragraph [ref=e406]: Athaarva is a healthcare technology company building a comprehensive digital platform that connects hospitals, doctors, and patients. The platform features a sophisticated hospital onboarding system with an interactive website builder/canvas where healthcare providers can visually customize their web presence—editing content inline, uploading assets, and configuring themes in real-time. As a frontend developer, I contributed to building React/Next.js components including drag-and-drop image uploaders, WYSIWYG text editors, theme customizers with live preview, and responsive template renderers that transform static designs into fully interactive, editable canvases.
+          - generic [ref=e407]:
+            - generic [ref=e408]: Javascript
+            - generic [ref=e409]: React.js
+            - generic [ref=e410]: Next.js
+            - generic [ref=e411]: Node.js
+            - generic [ref=e412]: MySql
+            - generic [ref=e413]: python
+            - generic [ref=e414]: Agentic AI
+        - generic [ref=e418]:
+          - generic [ref=e419]: 2025 - Present
+          - heading "Frontend Developer Intern" [level=3] [ref=e420]
+          - paragraph [ref=e421]: "@ Inovatix Solutions"
+          - paragraph [ref=e422]: Worked on UI development, interface components, and frontend implementation. Supported testing, debugging, and optimization of assigned modules. Collaborated with backend and design teams for feature integration. Participated in research related to AI and product workflows. Coordinated with the team during scheduled training sessions and product launches.
+          - generic [ref=e423]:
+            - generic [ref=e424]: React.js
+            - generic [ref=e425]: JavaScript
+            - generic [ref=e426]: UI/UX
+            - generic [ref=e427]: API Integration
+            - generic [ref=e428]: AI Research, Agentic AI
+        - generic [ref=e432]:
+          - generic [ref=e433]: 2024 - Present
+          - heading "Frontend Developer" [level=3] [ref=e434]
+          - paragraph [ref=e435]: "@ Kiva"
+          - paragraph [ref=e436]: Designed and developing App to connect likely minded people as they can interact on our app can share there posts and insights to the outside world. Using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.
+          - generic [ref=e437]:
+            - generic [ref=e438]: Nest.js
+            - generic [ref=e439]: Flutter
+            - generic [ref=e440]: ReactNative
+            - generic [ref=e441]: PostgreSql
+            - generic [ref=e442]: Prisma
+    - generic [ref=e443]:
+      - generic [ref=e444]:
+        - text: MY WORK
+        - heading "Featured Projects" [level=2] [ref=e445]
+        - paragraph [ref=e447]: Here are some of my recent projects that showcase my skills and experience
+      - generic [ref=e448]:
+        - button "All" [ref=e449]
+        - button "React" [ref=e450]
+        - button "python" [ref=e451]
+        - button "MySql" [ref=e452]
+        - button "pandas" [ref=e453]
+        - button "Azure" [ref=e454]
+      - generic [ref=e455]:
+        - generic [ref=e458]:
+          - img "UDYAN SAATHI" [ref=e460]
+          - generic [ref=e462]:
+            - heading "UDYAN SAATHI" [level=3] [ref=e463]
+            - paragraph [ref=e464]: A fully functional environment monitoring website with features like product AQI Monitoring, WQI Monitoring, and Live map of india with integrated stations.
+            - generic [ref=e465]:
+              - generic [ref=e466]: React
+              - generic [ref=e467]: python
+              - generic [ref=e468]: MySql
+              - generic [ref=e469]: pandas
+              - generic [ref=e470]: Azure
+            - generic [ref=e471]:
+              - link "Live Demo" [ref=e472]:
+                - /url: https://udyaansaathi.onrender.com
+                - img [ref=e473]
+                - generic [ref=e475]: Live Demo
+              - link "Source Code" [ref=e476]:
+                - /url: https://github.com/mvanshbu0681
+                - img [ref=e477]
+                - generic [ref=e479]: Source Code
+        - generic [ref=e482]:
+          - img "FloatChat" [ref=e484]
+          - generic [ref=e486]:
+            - heading "FloatChat" [level=3] [ref=e487]
+            - paragraph [ref=e488]: Developed an agentic AI system enabling natural-language interaction with ARGO ocean data using LangChain, and GPT-4, automating NL to SQL queries and reducing data retrieval time by 85%, empowering faster marine insights. Integrated RAG-based context retrieval with VectorDB and Azure OpenAI to process 10M+ ARGO float records in real-time, improving research efficiency by 5x and enabling instant exploration of ocean patterns. Deployed on Azure with a modular FastAPI-Next.js stack, enhancing ocean forecasting accuracy by 40%, reducing ships fuel consumption in route planning by 20%, and accelerating data-driven decisions for sustainability initiatives
+            - generic [ref=e489]:
+              - generic [ref=e490]: React
+              - generic [ref=e491]: Next.js
+              - generic [ref=e492]: python
+              - generic [ref=e493]: MySql
+            - generic [ref=e494]:
+              - link "Live Demo" [ref=e495]:
+                - /url: https://argoocean.vercel.app
+                - img [ref=e496]
+                - generic [ref=e498]: Live Demo
+              - link "Source Code" [ref=e499]:
+                - /url: https://github.com/mvanshbu0681
+                - img [ref=e500]
+                - generic [ref=e502]: Source Code
+        - generic [ref=e505]:
+          - img "Mojito" [ref=e507]
+          - generic [ref=e509]:
+            - heading "Mojito" [level=3] [ref=e510]
+            - paragraph [ref=e511]: A visually rich animation website exploring advanced GSAP techniques. Implemented SplitText, ScrollTrigger, parallax effects, pinning, video scrubbing, and reveal animations. Coordinated 7 complex animated sections while maintaining smooth 60fps performance. Focused on responsive, mobile-friendly interaction and optimized rendering. Learned timeline orchestration and animation sequencing for immersive UI experiences.
+            - generic [ref=e512]:
+              - generic [ref=e513]: React
+              - generic [ref=e514]: Next.js
+              - generic [ref=e515]: GSAP
+              - generic [ref=e516]: Tailwind CSS
+            - generic [ref=e517]:
+              - link "Live Demo" [ref=e518]:
+                - /url: https://gsap-animation-xc3i.vercel.app
+                - img [ref=e519]
+                - generic [ref=e521]: Live Demo
+              - link "Source Code" [ref=e522]:
+                - /url: https://github.com/mvanshbu0681
+                - img [ref=e523]
+                - generic [ref=e525]: Source Code
+      - link "View All Projects on GitHub →" [ref=e527]:
+        - /url: https://github.com/mvanshbu0681
+        - img [ref=e528]
+        - generic [ref=e530]: View All Projects on GitHub
+        - generic [ref=e531]: →
+    - generic [ref=e533]:
+      - generic [ref=e534]:
+        - paragraph [ref=e535]: Recognition
+        - heading "Achievements & Awards" [level=2] [ref=e536]
+        - paragraph [ref=e537]: Milestones that reflect my dedication to innovation and continuous learning
+      - generic [ref=e538]:
+        - generic [ref=e540]:
+          - generic [ref=e541]: "2023"
+          - img [ref=e543]
+          - generic [ref=e545]:
+            - text: Winner
+            - heading "Smart India Hackathon 2023" [level=3] [ref=e546]
+            - paragraph [ref=e547]: National victory among 15,000+ participants developing innovative AI solution
+        - generic [ref=e549]:
+          - generic [ref=e550]: "2023"
+          - img [ref=e552]
+          - generic [ref=e554]:
+            - text: Winner
+            - heading "Google AI Campus Fest 2023" [level=3] [ref=e555]
+            - paragraph [ref=e556]: Recognized for outstanding machine learning project implementation and presentation
+        - generic [ref=e558]:
+          - generic [ref=e559]: "2024"
+          - img [ref=e561]
+          - generic [ref=e563]:
+            - text: Published Author
+            - heading "IEEE Research Publication" [level=3] [ref=e564]
+            - paragraph [ref=e565]: Published "A MultiResUNet-based Deep Learning Architecture for Accurate Lung Segmentation in Chest X-Rays"
+        - generic [ref=e567]:
+          - generic [ref=e568]: 2023-2024
+          - img [ref=e570]
+          - generic [ref=e572]:
+            - text: Mentor & Speaker
+            - heading "Technical Leadership" [level=3] [ref=e573]
+            - paragraph [ref=e574]: Mentored 20+ junior developers, conducted 10+ technical workshops, featured in 2 technical podcasts
+        - generic [ref=e576]:
+          - generic [ref=e577]: 2023-2024
+          - img [ref=e579]
+          - generic [ref=e581]:
+            - text: Bennett University
+            - heading "Project Showcase Winner" [level=3] [ref=e582]
+            - paragraph [ref=e583]: Awarded for AI-focused innovations at Bennett University in consecutive years (2023 & 2024)
+      - generic [ref=e585]:
+        - generic [ref=e586]:
+          - generic [ref=e587]: 15,000+
+          - text: Competitors beaten (SIH)
+        - generic [ref=e588]:
+          - generic [ref=e589]: 20+
+          - text: Developers mentored
+        - generic [ref=e590]:
+          - generic [ref=e591]: 10+
+          - text: Workshops conducted
+        - generic [ref=e592]:
+          - generic [ref=e593]: "2"
+          - text: Podcast features
+    - generic [ref=e594]:
+      - generic [ref=e595]:
+        - text: GET IN TOUCH
+        - heading "Let's Work Together" [level=2] [ref=e596]
+        - paragraph [ref=e598]: I'm always open to discussing new opportunities, creative ideas, or just having a chat
+      - generic [ref=e599]:
+        - generic [ref=e600]:
+          - heading "Contact Information" [level=3] [ref=e601]
+          - paragraph [ref=e602]: Feel free to reach out if you have a project in mind, want to collaborate, or just want to say hello. I'll get back to you as soon as possible!
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - img [ref=e606]
+              - generic [ref=e608]:
+                - paragraph [ref=e609]: Location
+                - paragraph [ref=e610]: Greater Noida Aplha-2
+            - generic [ref=e611]:
+              - img [ref=e613]
+              - generic [ref=e615]:
+                - paragraph [ref=e616]: Phone
+                - paragraph [ref=e617]: "9953266232"
+            - generic [ref=e618]:
+              - img [ref=e620]
+              - generic [ref=e622]:
+                - paragraph [ref=e623]: Email
+                - paragraph [ref=e624]: mvansh705@gmail.com
+          - generic [ref=e625]:
+            - heading "Follow Me" [level=4] [ref=e626]
+            - generic [ref=e627]:
+              - link "LinkedIn" [ref=e629]:
+                - /url: https://www.linkedin.com/in/vansh-mehta-8867b8275/
+                - img [ref=e630]
+              - link "GitHub" [ref=e633]:
+                - /url: https://github.com/mvanshbu0681
+                - img [ref=e634]
+              - link "Twitter" [ref=e637]:
+                - /url: https://x.com/VanshMehta22914
+                - img [ref=e638]
+              - link "Instagram" [ref=e641]:
+                - /url: https://www.instagram.com/mvansh_2005/
+                - img [ref=e642]
+          - generic [ref=e644]:
+            - paragraph [ref=e645]: 💼
+            - heading "Open for Opportunities" [level=4] [ref=e646]
+            - paragraph [ref=e647]: Currently looking for internship and full-time opportunities as a Frontend/Full Stack Developer.
+        - generic [ref=e649]:
+          - generic [ref=e650]:
+            - generic [ref=e651]:
+              - textbox "Name" [ref=e652]
+              - generic [ref=e653]: Your Name
+            - generic [ref=e654]:
+              - textbox "Email" [ref=e655]
+              - generic [ref=e656]: Your Email
+          - generic [ref=e657]:
+            - textbox "Subject" [ref=e658]
+            - generic [ref=e659]: Subject
+          - generic [ref=e660]:
+            - textbox "Message" [ref=e661]
+            - generic [ref=e662]: Your Message
+          - button "Send Message →" [ref=e663]:
+            - text: Send Message
+            - generic [ref=e664]: →
+  - contentinfo [ref=e665]:
+    - generic [ref=e667]:
+      - generic [ref=e668]:
+        - generic [ref=e669]:
+          - heading "Vansh Mehta" [level=3] [ref=e670]
+          - paragraph [ref=e671]: Full Stack Developer passionate about creating beautiful, functional, and user-friendly web applications.
+        - generic [ref=e672]:
+          - heading "Quick Links" [level=4] [ref=e673]
+          - navigation [ref=e674]:
+            - link "About" [ref=e675]:
+              - /url: "#about"
+            - link "Technologies" [ref=e676]:
+              - /url: "#technologies"
+            - link "Experience" [ref=e677]:
+              - /url: "#experience"
+            - link "Projects" [ref=e678]:
+              - /url: "#projects"
+            - link "Contact" [ref=e679]:
+              - /url: "#contact"
+        - generic [ref=e680]:
+          - heading "Connect" [level=4] [ref=e681]
+          - generic [ref=e682]:
+            - link "LinkedIn" [ref=e683]:
+              - /url: https://www.linkedin.com/in/vansh-mehta-8867b8275/
+              - img [ref=e684]
+            - link "GitHub" [ref=e686]:
+              - /url: https://github.com/mvanshbu0681
+              - img [ref=e687]
+            - link "Twitter" [ref=e689]:
+              - /url: https://x.com/VanshMehta22914
+              - img [ref=e690]
+            - link "Instagram" [ref=e692]:
+              - /url: https://www.instagram.com/mvansh_2005/
+              - img [ref=e693]
+      - generic [ref=e696]:
+        - paragraph [ref=e697]: © 2026 Vansh Mehta. All rights reserved.
+        - paragraph [ref=e698]:
+          - text: Made with
+          - img [ref=e700]
+          - text: using React & Tailwind CSS
+      - link "Scroll to top" [ref=e703]:
+        - /url: "#"
+        - img [ref=e704]
